@@ -1,0 +1,62 @@
+{
+  "id": "malta",
+  "name": "Malta",
+  "country": "MT",
+  "auto_region": true,
+  "dns": "malta.privacy.network",
+  "port_forward": true,
+  "geo": true,
+  "offline": false,
+  "servers": {
+    "ikev2": [
+      {
+        "ip": "176.125.230.35",
+        "cn": "malta405"
+      },
+      {
+        "ip": "176.125.230.4",
+        "cn": "malta403"
+      }
+    ],
+    "meta": [
+      {
+        "ip": "176.125.230.29",
+        "cn": "malta405"
+      },
+      {
+        "ip": "176.125.230.2",
+        "cn": "malta403"
+      }
+    ],
+    "ovpntcp": [
+      {
+        "ip": "176.125.230.40",
+        "cn": "malta405",
+        "van": true
+      },
+      {
+        "ip": "176.125.230.5",
+        "cn": "malta403",
+        "van": true
+      }
+    ],
+    "ovpnudp": [
+      {
+        "ip": "176.125.230.37",
+        "cn": "malta405",
+        "van": true
+      },
+      {
+        "ip": "176.125.230.10",
+        "cn": "malta403",
+        "van": true
+      }
+    ],
+    "wg": [
+      {
+        "ip": "176.125.230.5",
+        "cn": "malta403"
+      }
+    ]
+  }
+}
